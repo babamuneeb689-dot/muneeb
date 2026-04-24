@@ -1,0 +1,12 @@
+# Security: Hide the API key file
+.env
+
+# Cleanup: Hide Python cache
+__pycache__/
+*.pyc
+
+# Cleanup: Hide any old session folders
+order_sessions/
+
+# Streamlit local settings
+.streamlit/
